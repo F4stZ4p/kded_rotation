@@ -62,10 +62,10 @@ void ScreenRotator::updateOrientation() {
 	QString o;
 	switch (currentOrientation) {
 		case QOrientationReading::TopUp:
-			o = "normal";
+			o = "bottom-up";
 			break;
 		case QOrientationReading::TopDown:
-			o = "bottom-up";
+			o = "normal";
 			break;
 		case QOrientationReading::LeftUp:
 			o = "left-up";
